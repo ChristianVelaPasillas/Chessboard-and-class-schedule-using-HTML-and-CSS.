@@ -1,0 +1,138 @@
+.fila td, th{
+	width: 80.5px;
+	height: 90.5px;
+	border-collapse: collapse;
+	border: 1px solid black;
+	padding:  10px;
+}
+
+.black{
+	background-color: green;
+}
+
+.body {
+  background-color: lightblue;
+}
+
+#tablero{
+	border: #9D6141 15px ridge;
+    background-color: #ffffff	
+}
+
+.color1{
+	background-color: #ffffff	
+}
+
+
+
+.torre{
+	background-image: url("torre_low.png");
+	background-size: cover;
+
+	
+}
+.peon{
+	background-image: url("peon_low.png");
+	background-size: cover;
+}
+
+.caballo{
+	background-image: url("caballo_low.png");
+	background-size: cover;
+}
+.alfil{
+	background-image: url("alfil_low.png");
+	background-size: cover;
+}
+.rey{
+	background-image: url("rey_lower.png");
+	background-size: cover;
+}
+.reina{
+	background-image: url("reyna_low.png");
+	background-size: cover;
+}
+
+
+
+#paisaje{
+
+	/*background-image: linear-gradient(to right,#00FF00,#95a5a6);*/
+    background-image: url("paisaje.jpeg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll; 
+    background-attachment: fixed;  
+    /*opacity: 0.2; */  
+    	
+	/*background-image: linear-gradient(to right,#ecf0f1,#95a5a6);*/
+/* background-image: radial-gradient(circle farthest-side at center ,#f1c40f,#e74c3c,#3498db);
+*/
+}
+
+#paisaje h2{
+
+	color: black;
+}
+
+#sets{
+	background-image: url("set.jpeg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll; 
+    background-attachment: fixed;  
+}
+
+
+
+.horario tr, td, th{
+	text-align: center;
+	padding: 15px;
+}
+
+/*.horario, .horario tr td, .horario th{
+	border: .FF0000 5px ridge;
+} 
+
+.horario th{
+	background-color: yellow;
+	color: #2020FF
+}*/
+
+.filass{
+	background-color: yellow;
+	color: #2020FF
+}
+
+.filah td{
+	padding: 15px;
+	color: #00008c;
+}
+
+.filah th{
+	padding: 15px;
+}
+
+.so{
+	background-color: #E8D2C8;
+}
+
+.hr{
+	background-color: #FAE696;
+}
+
+.soII{
+	background-color: #9D60F0;
+}
+
+.tt{
+	background-color: #9CDCFA;
+}
+
+.mt{
+	background-color: #FFA448;
+}
+
+.rc{
+	background-color: #4FFF4F;
+}
